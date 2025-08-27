@@ -434,11 +434,12 @@ display: flex;
 }
 
 .ulsocialxx2 {
-  list-style: none;
+ list-style: none;
   padding: 0;
-  margin-left: 0px;
   display: flex;
   gap: 0px; /* afstand tussen de iconen */
+  justify-content: center; /* horizontaal centreren */
+  align-items: center;    /* verticaal centreren */
 }
 
 .example-2 {
@@ -1513,5 +1514,6 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
