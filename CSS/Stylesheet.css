@@ -1286,19 +1286,6 @@ display: none !important;
   padding-top: 200px;
 }
 
-@media (max-width: 768px) {
-  .containerextra {
-    display: flex;
-    flex-direction: column; /* alles onder elkaar */
-    align-items: center;
-    padding-top: 50px; /* veel minder dan desktop */
-    margin-top: 50px;
-    gap: 20px;
-    width: 100%;        /* voorkomt horizontale scroll */
-    box-sizing: border-box;
-  }
-}
-
 .form {
 width: 100%;         /* vult container breedte */
   max-width: 600px;    /* maximaal 600px */
@@ -1501,6 +1488,7 @@ span{
   transition: 0.5s;
 
 }
+
 
 
 
