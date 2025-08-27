@@ -111,10 +111,14 @@ background: url(../IMG/Header\ image.png) no-repeat center;
 }
 
 .divback2 {
-min-height: 100vh; 
-  height: auto;   
+min-height: 100vh; /* minstens schermhoogte */
+  height: auto;      /* groeit met content */
   background: linear-gradient(176deg, #ffffff 19%, #04384F 47%, #000000 86%);
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 2rem; /* ruimte onderin voor footer */
 }
 
 .divbackFAQ {
@@ -157,7 +161,7 @@ html, body {
 
 .imgtop{
   position: absolute;
-  width: 175px;
+  max-width: 175px;
   top: 1%;
   left: 1%;
   z-index: 1;
@@ -1276,19 +1280,27 @@ display: none !important;
 /*--- contact-form CSS ---*/
 
 .containerextra {
+ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
   margin-top: 100px;
-  padding-top: 200px;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
   .containerextra {
     padding-top: 50px; /* minder push op mobiel */
     margin-top: 50px;
+  }
+  .imageform1 {
+    width: 90%;       /* kleiner dan container */
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 2rem;
   }
 }
 
@@ -1308,7 +1320,7 @@ width: 100%;         /* vult container breedte */
 .imageform1 {
 width: auto;
   max-width: 600px;
-	min-width: 200px;
+  min-width: 200px;
   height: auto;
   max-height: 500px;
   display: block;
@@ -1492,12 +1504,4 @@ span{
   font-size: 16px;
   padding: 20px;
   transition: 0.5s;
-
 }
-
-
-
-
-
-
-
