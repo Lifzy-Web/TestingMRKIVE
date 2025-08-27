@@ -1286,6 +1286,16 @@ display: none !important;
   padding-top: 200px;
 }
 
+@media (max-width: 768px) {
+  .containerextra {
+    flex-direction: column; /* items onder elkaar */
+    align-items: center;    /* centreren */
+    padding-top: 50px;      /* minder push naar beneden */
+    margin-top: 50px;
+    gap: 20px;              /* kleinere afstand tussen items */
+  }
+}
+
 .form {
 width: 100%;         /* vult container breedte */
   max-width: 600px;    /* maximaal 600px */
@@ -1302,6 +1312,7 @@ width: 100%;         /* vult container breedte */
 .imageform1 {
 width: auto;
   max-width: 600px;
+	min-width: 200px;
   height: auto;
   max-height: 500px;
   display: block;
@@ -1487,3 +1498,4 @@ span{
   transition: 0.5s;
 
 }
+
