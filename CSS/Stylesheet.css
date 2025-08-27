@@ -444,7 +444,7 @@ display: flex;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 .ulsocialxx {
   margin-left: -100px;
 }
@@ -1531,6 +1531,7 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
 
