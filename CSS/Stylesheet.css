@@ -1285,6 +1285,13 @@ display: none !important;
   padding-top: 200px;
 }
 
+@media (max-width: 768px) {
+  .containerextra {
+    padding-top: 50px; /* minder push op mobiel */
+    margin-top: 50px;
+  }
+}
+
 .form {
 width: 100%;         /* vult container breedte */
   max-width: 600px;    /* maximaal 600px */
@@ -1487,6 +1494,7 @@ span{
   transition: 0.5s;
 
 }
+
 
 
 
