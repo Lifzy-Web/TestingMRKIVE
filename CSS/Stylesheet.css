@@ -140,7 +140,7 @@ html, body {
   height:100%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
   ::-webkit-scrollbar {
       -webkit-appearance: none;
   }
@@ -1537,6 +1537,7 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
 
