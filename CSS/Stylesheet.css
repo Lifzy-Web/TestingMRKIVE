@@ -138,24 +138,22 @@ min-height: 100vh; /* minstens schermhoogte */
 html, body {
   margin:0;
   height:100%;
-}
-
-html {
-    -ms-overflow-style: auto;   /* IE en Edge */
+      -ms-overflow-style: auto;   /* IE en Edge */
     scrollbar-width: auto;       /* Firefox */
 }
 
 /* Scrollbar verbergen op mobiel */
 @media (max-width: 768px) {
-    /* Chrome, Safari en Opera */
-    html::-webkit-scrollbar {
-        display: none;
+    html, body {
+        overflow: auto;              /* zorg dat scrollen kan */
+        -ms-overflow-style: none;    /* IE en Edge */
+        scrollbar-width: none;       /* Firefox */
     }
 
-    /* IE, Edge en Firefox */
-    html {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+    /* Chrome, Safari, Opera */
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -1550,6 +1548,7 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
 
