@@ -140,10 +140,23 @@ html, body {
   height:100%;
 }
 
-@media screen and (max-width: 600px){
-  ::-webkit-scrollbar {
-      -webkit-appearance: none;
-  }
+html {
+    -ms-overflow-style: auto;   /* IE en Edge */
+    scrollbar-width: auto;       /* Firefox */
+}
+
+/* Scrollbar verbergen op mobiel */
+@media (max-width: 768px) {
+    /* Chrome, Safari en Opera */
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* IE, Edge en Firefox */
+    html {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 }
 
 .container-met-spans {
@@ -1537,6 +1550,7 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
 
