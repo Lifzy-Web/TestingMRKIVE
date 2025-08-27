@@ -433,6 +433,14 @@ display: flex;
   gap: 0px; /* afstand tussen de iconen */
 }
 
+.ulsocialxx2 {
+  list-style: none;
+  padding: 0;
+  margin-left: -100px;
+  display: flex;
+  gap: 0px; /* afstand tussen de iconen */
+}
+
 .example-2 {
   display: flex;
   justify-content: center;
@@ -1505,3 +1513,4 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
