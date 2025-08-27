@@ -1302,7 +1302,6 @@ width: 100%;         /* vult container breedte */
 .imageform1 {
 width: auto;
   max-width: 600px;
-  min-width: 200px;
   height: auto;
   max-height: 500px;
   display: block;
@@ -1486,4 +1485,5 @@ span{
   font-size: 16px;
   padding: 20px;
   transition: 0.5s;
+
 }
