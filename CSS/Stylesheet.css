@@ -446,11 +446,7 @@ display: flex;
 
 @media (max-width: 768px) {
 .ulsocialxx {
-  list-style: none;
-  padding: 0;
-  margin-left: 75px;
-  display: flex;
-  gap: 0px; /* afstand tussen de iconen */
+  margin-left: -100px;
 }
 }
 
@@ -1535,6 +1531,7 @@ span{
   padding: 20px;
   transition: 0.5s;
 }
+
 
 
 
